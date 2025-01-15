@@ -1,0 +1,144 @@
+body {
+    display: grid;
+        place-items: center;
+        text-align: center;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 20s ease infinite;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+.panel {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    flex: 1;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style umum untuk halaman */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2c3e50; /* Warna latar belakang */
+    color: #ecf0f1; /* Warna teks */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style untuk panel input */
+.panel {
+    background-color: #34495e; /* Warna panel */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.panel label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.panel input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #2c3e50; /* Warna border */
+    border-radius: 4px;
+    background-color: #ecf0f1; /* Warna input */
+    color: #34495e; /* Warna teks input */
+}
+
+.panel .button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel button {
+    flex: 1;
+    background-color: #3498db; /* Warna tombol */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.panel button:hover {
+    background-color: #2980b9; /* Warna tombol saat dihover */
+}
+
+/* Style untuk tombol setelah proses pembuatan web baru */
+.success-buttons {
+    margin-top: 15px;
+}
+
+.success-buttons button {
+    background-color: #3498db; /* Warna tombol */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.success-buttons button:hover {
+    background-color: #2980b9; /* Warna tombol saat dihover */
+}
